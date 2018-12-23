@@ -1,0 +1,40 @@
+body {
+    margin-left:auto;
+    margin-right:auto;
+    max-width:80em;
+    width:70%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tip-group {
+    padding:5px;
+    padding:10px;
+}
+
+.tip-group #amount, #people, #tip{
+    border: none;
+    padding:10px;
+    font-size:22px;
+    font-weight: bold;
+    background: #979797;
+    width:60px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#result {
+    padding:30px;
+    margin:20px;
+    font-size:28px;
+    text-transform:uppercase;
+    font-weight:900;
+    border: solid 3px #000000;
+    border-radius:15px;
+    background: #000000;
+    color:#FFFFFF;
+}
